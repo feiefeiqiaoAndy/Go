@@ -5,7 +5,10 @@ import "com.andy/models"
 func  GetUser() string {
 
     user :=new(models.UserModel)
-    user.Uname = "andy"
+
+     user.SetValue(11,"qiao")
+
+
 
 	return   user.ToString()
 
