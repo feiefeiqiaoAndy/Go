@@ -21,4 +21,9 @@ func main() {
 	for _ ,v :=range names {
 		fmt.Println(v)
 	}
+
+	  ans := [5]int{1,2}
+	  fmt.Println(ans)
+
+
 }
