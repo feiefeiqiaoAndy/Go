@@ -30,7 +30,7 @@ func main() {
 
 
 
-	git remote add origin git@github.com:feiefeiqiaoAndy/Go.git
 
-	git@github.com:feiefeiqiaoAndy/Go.git
+
+
 }
