@@ -16,11 +16,8 @@ func main() {
 	for i := 0; i < 26; i++ {
 		fmt.Printf("%c ", myChars[i])
 	}
-
 	//给一个数组找出的最大值
-
 	var intArr = [5]int{1, -1, 9, 90, 11}
-
 	maxValue := intArr[0]
 	maxIndex := 0
 
@@ -44,9 +41,7 @@ func main() {
 		sum += val
 	}
 	fmt.Printf("sum=%v 平均值=%v\n", sum,  float64(sum) / float64(len(arr1)))
-
 	//数组反转
-
 	var  op  [5]int
 	rand.Seed(time.Now().UnixNano())
 	for i := 0; i <len(op); i++ {
@@ -65,8 +60,6 @@ func main() {
 		//op[len(op)-1 -i] = op[i]      要注销temp
 
 	}
-
-
 	fmt.Println(op)
 
 }
